@@ -1,0 +1,7 @@
+[web_servers]
+lamp_server ansible_host=192.168.1.10
+
+[web_servers:vars]
+ansible_ssh_user=sadmin
+ansible_sudo_pass=Aa123456
+ansible_ssh_private_key_file=/root/.ssh/id_rsa
